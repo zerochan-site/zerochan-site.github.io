@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ZeroChan</title>
+</head>
+<body>
+
+	<center>
+		<h1>ZeroChan: Anonymous Imageboard</h1>
+		<div style="position: absolute; top: 10px; right: 10px;">
+	    	<a href="index.html">Home</a>
+    	</div>
+	<hr><br>
+	<h3>
+		Please leave your message in the field below, and we will do our best to respond as quickly as possible.<br> Please be patient. We will send our reply to the email address you provided in the field below. 
+	</h3>
+	<br><hr><br>
+	<form>
+		<input type="email" placeholder="Enter your email..." id="email"></input><br><br>
+	    <textarea id="message" name="message" rows="5" cols="33" placeholder="Enter your message..."></textarea>
+	    <br><br>
+	    <script src="writeus.js"></script>
+	    <button type="button" id="sendbtn" onclick="checkWaterBoxes()">Send</button>
+	</form>
+	<bold><label id="answer"></label></bold>
+</center>
+</body>
+</html>

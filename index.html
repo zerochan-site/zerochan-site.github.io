@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ZeroChan</title>
+</head>
+<body>
+	<center>
+		<h1>ZeroChan: Anonymous Imageboard</h1>
+		<div style="position: absolute; top: 10px; right: 10px;">
+	    	<a href="writeus.html">Write us</a>
+	    	<span style="margin: 0 5px;">|</span>
+	    	<a href="boardrules.html">Board rules</a>
+    	</div>
+
+		<hr><br>
+		<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+	    <h3 style="max-width: 600px; text-align: left;">
+	        Welcome to our completely free and unrestricted forum system. Here, you can post messages and chat while<br> remaining completely anonymous. The system is divided into several main forums, each of which is listed below.<br><br>
+
+	        <br>
+	        If you violate the rules, your IP address will be blacklisted, and your access to the site will be completely restricted.<br> Neither proxies nor VPNs will help you avoid a complete block. Everything operates according to specific detection algorithms.<br>
+	        It’s worth noting that you can purchase an unban, but to do so, you’ll need to take a series of steps to contact the moderation team<br> and the project and pay for your return to the site.<br> An unban costs $50.
+	    </h3>
+
+	    <img src="logo.jpeg" width="353" height="500" alt="logo">
+	</div>
+	<br><hr><br>
+	</center>
+	<label><center>© Created by a group of enthusiasts</center></label>
+	<br><br><label><center>⚠ The other threads are currently under development. <br>Please be patient and, for now, use the “/b/” board as your main place for discussion. <br>Thank you for your understanding.</center></label>
+	<br><hr>
+	<br>
+	<h1><center>/b/ - Board</center></h1>
+	<h4><center>This section is for absolutely anything and everything;<br> you can discuss anything that isn't prohibited or penalized by the <a href="boardrules.html">rules</a>. <br>If you encounter any violations, please contact us via the “<a href="writeus.html">Write to Us</a>” section.</center></h4>
+	<br><hr><br>
+	<script src="errormessage.js"></script>
+	<center><input type="name" id="name" placeholder="Enter your name (Optional)..."><br><br>
+	<textarea id="message" name="message" rows="5" cols="33" placeholder="Enter your message..."></textarea><br><br><button onclick="die()">Send</button><br><br><br></center>
+		<div style="
+		  background:#ffffff;
+		  border:1px solid #b7c5d9;
+		  padding:12px;
+		  width:700px;
+		  font-family: Arial, Helvetica, sans-serif;
+		  font-size:15px;
+		  color:#000;
+		">
+
+		  <label>
+		    <b>
+		      <a href="#" style="color:#117743; text-decoration:none; font-size:16px;">
+		        Anonymous
+		      </a>
+		    </b>
+		    <span style="color:#000; font-size:14px; margin-left:5px;">
+		      04/01/11(Wed)23:47:10
+		    </span>
+		    <u style="margin-left:10px;">
+		      <a href="#" style="color:#0000ee; font-size:14px;">
+		        No.39051249
+		      </a>
+		    </u>
+		  </label>
+
+		  <br><br>
+
+		  <label style="display:block; font-size:16px; line-height:1.5;">
+		  	While digging through my old hard drive, I found a folder containing files for running some version of Minecraft. I was able to transfer it to my launcher and launch it. I saw it was beta 1.4. I decided to give it a try and, after entering my old world, started playing. After about 20-30 minutes, the game crashed. Does anyone want to know more about this version, or even a mod?<br><br>
+
+		  	<b>File attached:</b>
+		  	<ul><li>File: <a href="game.zip">game.zip</a> (0 KB)</li><i><li>(We do not recommend downloading unknown files because they may be malicious)</li></i></ul>
+		    
+		  </label>
+		  <p>File: <a href="#">screen.png</a>-(199 KB, 854x480)</p>
+		  <img src="screen.png" style="max-width:200px; cursor:pointer;"
+       		onclick="openModal(this.src)"
+		 	style="max-width:40%; margin-top:15px;">
+
+
+		</div>
+		<div id="modal" 
+     		style="display:none; position:fixed; z-index:999;
+            left:0; top:0; width:100%; height:100%;
+            background:rgba(0,0,0,0.8);">
+
+		  <span onclick="closeModal()" 
+		        style="position:absolute; top:20px; right:40px;
+		               color:white; font-size:40px; cursor:pointer;">
+		    &times;
+		  </span>
+
+			 <img id="modalImg" 
+			       style="display:block; margin:auto; margin-top:5%;
+			              max-width:90%; max-height:90%;">
+		</div>
+
+		<script>
+		function openModal(src) {
+		  document.getElementById("modal").style.display = "block";
+		  document.getElementById("modalImg").src = src;
+		}
+
+		function closeModal() {
+		  document.getElementById("modal").style.display = "none";
+		}
+		</script>
+		<div style="
+		  background:#ffffff;
+		  border:1px solid #b7c5d9;
+		  padding:12px;
+		  width:700px;
+		  font-family: Arial, Helvetica, sans-serif;
+		  font-size:15px;
+		  color:#000;
+		">
+
+	  <label>
+	    <b>
+	      <a href="#" style="color:#117743; text-decoration:none; font-size:16px;">
+	        Anonymous (Moderator)
+	      </a>
+	    </b>
+	    <span style="color:#000; font-size:14px; margin-left:5px;">
+	      24/12/10(Wed)02:12:38
+	    </span>
+	    <u style="margin-left:10px;">
+	      <a href="#" style="color:#0000ee; font-size:14px;">
+	        No.24982891
+	      </a>
+	    </u>
+	  </label>
+
+	  <br><br>
+
+	  <label style="display:block; font-size:16px; line-height:1.5;">
+	  	Due to unforeseen circumstances, the message database became corrupted, resulting in the complete loss of previous history. We apologize for any inconvenience.
+	    
+	  </label>
+
+
+	</div>
+
+
+</body>
+</html>
